@@ -1,11 +1,16 @@
+/*
+---------------
+DOC DEFAULTS
+---------------
+*/
+
 * {
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
+    overflow: hidden;
 }
 
 html,body {
-    width: 100%;
-    height: 100%;
     background-color: #F2EAE2;
     font-family: 'Montserrat', sans-serif;
     font-size: 0.875;
@@ -14,3 +19,38 @@ html,body {
 h1 {
     font-family: 'Fraunces', serif;
 }
+
+/*
+---------------
+MAIN LAYOUT
+---------------
+*/
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.preview-component {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 1.25rem;
+    width: 21.438rem;
+    height: 38.188rem;
+}
+
+.perfume-img {
+    object-fit: cover; 
+    height: 15rem;
+    min-width: 100%;
+}
+
+
+/*
+---------------
+MEDIA QUERIES
+---------------
+*/
