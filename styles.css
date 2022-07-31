@@ -5,7 +5,7 @@ DOC DEFAULTS
 */
 
 * {
-	margin: 0 auto;
+	margin: 0;
 	padding: 0;
     overflow: hidden;
 }
@@ -13,11 +13,19 @@ DOC DEFAULTS
 html,body {
     background-color: #F2EAE2;
     font-family: 'Montserrat', sans-serif;
-    font-size: 0.875;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #6C7289;
 }
 
-h1 {
+.perfume-name {
     font-family: 'Fraunces', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    order: 2;
+    color: #1C232B;
+    padding: 0.75rem 0 1rem 0;
+    line-height: 2rem;
 }
 
 /*
@@ -28,26 +36,80 @@ MAIN LAYOUT
 
 .container{
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     height: 100vh;
 }
 
 .preview-component {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     background-color: #fff;
     border-radius: 1.25rem;
     width: 21.438rem;
     height: 38.188rem;
 }
 
-.perfume-img {
-    object-fit: cover; 
-    height: 15rem;
-    min-width: 100%;
+.price {
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    order: 4;
+    padding-top: 1.5rem;
 }
 
+.sale-price {
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #3D8168;
+    padding-right: 1.188rem;
+}
+
+.retail-price {
+    line-height: 1.438rem;
+    font-size: 0.813rem;
+    text-decoration: line-through;
+}
+
+.perfume-img{
+    object-fit: cover;
+    height: 15rem;  
+    order: 1;
+}
+
+.perfume-info{
+    display: flex;
+    flex-direction: column;
+    padding: 0 1.5rem 1.5rem 1.5rem;
+    order: 2;
+}
+
+.perfume-emphasis {
+    text-transform: uppercase;
+    letter-spacing: 0.313rem;
+    font-size: 0.75rem;
+    order: 1;
+    line-height: 0.914rem;
+}
+
+.perfume-description {
+    order: 3;
+    line-height: 1.438rem;
+}
+
+.cart-btn {
+    border: none;
+    outline: none;
+    font: inherit;
+    order: 5;
+    width: 18.438rem;
+    height: 3rem;
+    color: #fff;
+    background-color: #3D8168;
+    margin-top: 1.25rem;
+}
 
 /*
 ---------------
