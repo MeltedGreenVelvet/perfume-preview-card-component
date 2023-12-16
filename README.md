@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop Perfume Screenshot](./desktop-perfume-screenshot.jpg)
-![Mobile Perfume Screenshot](./mobile-perfume-screenshot.jpg)
+![Desktop Perfume Screenshot](./images/desktop-perfume-screenshot.jpg)
+![Mobile Perfume Screenshot](./images/mobile-perfume-screenshot.jpg)
 
 ### Links
 
