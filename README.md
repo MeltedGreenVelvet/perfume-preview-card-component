@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop Perfume Screenshot](perfume-preview-card-component/images/desktop-perfume-screenshot.jpg)
-![Mobile Perfume Screenshot](perfume-preview-card-component/images/mobile-perfume-screenshot.jpg)
+![Desktop Perfume Screenshot](https://github.com/MeltedGreenVelvet/perfume-preview-card-component/blob/main/images/desktop-perfume-screenshot.JPG)
+![Mobile Perfume Screenshot](https://github.com/MeltedGreenVelvet/perfume-preview-card-component/blob/main/images/mobile-perfume-screenshot.JPG)
 
 ### Links
 
