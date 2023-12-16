@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop Perfume Screenshot](./images/desktop-perfume-screenshot.jpg)
-![Mobile Perfume Screenshot](./images/mobile-perfume-screenshot.jpg)
+![Desktop Perfume Screenshot](perfume-preview-card-component/images/desktop-perfume-screenshot.jpg)
+![Mobile Perfume Screenshot](perfume-preview-card-component/images/mobile-perfume-screenshot.jpg)
 
 ### Links
 
@@ -41,7 +41,6 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- SCSS/SASS
 
 ### What I learned
 
