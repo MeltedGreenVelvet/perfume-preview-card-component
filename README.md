@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/perfume-bottle-component-with-flexbox-zQ9NtQMyFN)
-- Live Site URL: [Add live site URL here](https://perfume-preview-card-component.vercel.app/)
+- Solution URL: [frontendmentor.io/solutions/perfume-bottle-component-with-flexbox-zQ9NtQMyFN](https://www.frontendmentor.io/solutions/perfume-bottle-component-with-flexbox-zQ9NtQMyFN)
+- Live Site URL: [perfume-preview-card-component.vercel.app](https://perfume-preview-card-component.vercel.app/)
 
 ## My process
 
